@@ -28,7 +28,7 @@ az_vcpkg_integrate()
 
 # Project definition
 project(azure-sdk LANGUAGES CXX)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 if(MSVC_USE_STATIC_CRT AND MSVC)
